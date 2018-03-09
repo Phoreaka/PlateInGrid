@@ -1,0 +1,70 @@
+
+
+html, body {
+    direction: rtl;
+	font-family: 'Heebo', sans-serif;
+    -webkit-font-smoothing: antialiased;
+	margin: 0px;
+	overflow: hidden;
+}
+
+
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -99;
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#intro {
+    width: 100wh;
+    height: 100%;
+}
+
+.textContainer {
+    height: auto;
+    font-size: 22px;
+}
+
+#myCanvas {
+    
+}
+
+canvas {
+    height: 0;
+}
+
+
+
+#polychrome {
+    background-color: rgba(246, 244, 231, 1);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    bottom: 20px;
+    border: 2px solid #194E9F;
+    
+}
+
+#blue {
+    background-color: rgba(246, 244, 231, 1);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    bottom: 20px;
+    border: 2px solid #194E9F;
+}
+
+#PausePlay {
+    background-color: transparent;
+    bottom: 20px;
+    border-style: none;
+}
+
